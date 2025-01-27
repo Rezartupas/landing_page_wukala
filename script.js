@@ -33,3 +33,10 @@ window.addEventListener('wheel', function(event) {
         cursorIndicator.classList.remove('cursor-indicator-logo');
     }
 });
+
+cursorIndicator.addEventListener('click', function() {
+    if (currentSection < sections.length - 1) {
+        currentSection++;
+        sections[currentSection].scrollIntoView({ behavior: 'smooth' });
+    }
+});
