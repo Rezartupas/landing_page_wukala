@@ -78,4 +78,4 @@ Jika Anda ingin berkontribusi pada proyek ini, silakan ikuti langkah-langkah ber
 5. Buat pull request ke repositori ini.
 
 ## Lisensi
-Proyek ini dilisensikan di bawah [nama lisensi]. Silakan lihat file `LICENSE` untuk informasi lebih lanjut.
+Proyek ini tidak ada lisensi.
