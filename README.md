@@ -1,7 +1,7 @@
 # Landing Page Wukala
 
 ## Deskripsi Proyek
-Landing Page Wukala adalah sebuah halaman web yang dirancang untuk memperkenalkan dan mempromosikan program Wukala dari muslim101.id. Halaman ini dibuat dengan tujuan untuk menarik perhatian pengunjung dan mengarahkan mereka untuk melakukan pendaftaran sebagai wukala dari muslim101.id.
+Landing Page Wukala adalah sebuah halaman web yang dirancang untuk memperkenalkan dan mempromosikan program Wukala dari muslim101.id. Halaman ini dibuat dengan tujuan untuk menarik perhatian pengunjung dan mengarahkan mereka untuk melakukan pendaftaran sebagai wukala di muslim101.id.
 
 ## Fitur
 - Desain responsif yang dapat menyesuaikan dengan berbagai ukuran layar.
