@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.section {
+    background-color: #19b581;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.section img {
+    max-width: 100%;
+    height: auto;
+}
+
+.floating-button {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    color: #19b581;
+    padding: 20px 40px; /* Increased padding for larger button */
+    border-radius: 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px; /* Increased font size */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 1s forwards, pulse 1.5s infinite; /* Added pulse animation */
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: translateX(-50%) scale(1);
+    }
+    50% {
+        transform: translateX(-50%) scale(1.05); /* Slightly enlarge */
+    }
+    100% {
+        transform: translateX(-50%) scale(1);
+    }
+}
