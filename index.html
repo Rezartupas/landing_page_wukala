@@ -25,6 +25,9 @@
     <!-- End Meta Pixel Code -->
 </head>
 <body>
+    <div class="scroll-indicator">
+        <div class="scroll-indicator-progress" id="scrollIndicatorProgress"></div>
+    </div>
     <div class="section" id="section1">
         <img src="assets/1.png" alt="Image 1">
     </div>
@@ -36,5 +39,13 @@
     </div>
     <a href="https://wa.me/6285161610335?text=Saya+ingin+mendaftar+sebagai+Wukala+di+Muslim101." class="floating-button">Daftar Sekarang!</a>
     <script src="script.js"></script>
+    <script>
+        window.onscroll = function() {
+            var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            var scrolled = (winScroll / height) * 100;
+            document.getElementById("scrollIndicatorProgress").style.width = scrolled + "%";
+        };
+    </script>
 </body>
 </html>
